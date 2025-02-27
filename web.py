@@ -5,7 +5,7 @@ todos = functions.get_todos()
 
 st.set_page_config(layout="wide",
                    page_title="Todo_app",
-                   page_icon="🧊")
+                   page_icon=":material/checklist:")
 
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
